@@ -20,6 +20,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker'
+gem 'carrierwave', '~> 1.2'
 gem 'pry-byebug'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'

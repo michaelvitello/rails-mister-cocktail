@@ -73,11 +73,17 @@
 }
 
 #navsearch {
-  height: 34px;
   margin: 5px;
   margin-bottom: 0px;
 }
 
 .btn {
   margin: 5px;
+  margin-bottom: 0px;
+}
+
+.btn-default {
+  color: #3c5cc7 !important;
+  background-color: #fff;
+  border-color: #3c5cc7 !important;
 }

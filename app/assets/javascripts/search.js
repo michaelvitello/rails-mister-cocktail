@@ -1,8 +1,8 @@
-const input = document.getElementById("navsearch");
+// const input = document.getElementById("navsearch");
 
-input.addEventListener("keyup", function(event) {
-  event.preventDefault();
-  if (event.keyCode === 13) {
-    document.getElementById("enter").click();
-  }
-});
+// input.addEventListener("keyup", function(event) {
+//   event.preventDefault();
+//   if (event.keyCode === 13) {
+//     document.getElementById("enter").click();
+//   }
+// });

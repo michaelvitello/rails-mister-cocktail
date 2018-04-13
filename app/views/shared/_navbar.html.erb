@@ -1,12 +1,14 @@
 <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <%= image_tag "club_logo.png", alt: "Cocktail", width: 50 %></a>
+    <%= image_tag "drunk_logo.png", alt: "Cocktail" %></a>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
-    <input class="form-control mr-sm-2" name="query" type="search" placeholder="Search" aria-label="Search" id="navsearch">
-    <button class="btn btn-success my-2 my-sm-0" type="submit" id="enter">Search</button>
-    <a class="btn btn-primary my-2 my-sm-0" type="button" <%= link_to 'Add Cocktail', :new_cocktail %></a>
+    <form class="form-inline my-2 my-lg-0" action="/cocktails"/>
+      <input class="form-control mr-sm-2" name="query" type="search" placeholder="Search" aria-label="Search" id="navsearch">
+      <!-- <button class="btn btn-success my-2 my-sm-0" type="submit" id="enter">Search</button> -->
+    </form>
+      <a class="btn btn-default my-2 my-sm-0" type="button" id="add" <%= link_to 'Add Cocktail', :new_cocktail %></a>
   </div>
 </div>

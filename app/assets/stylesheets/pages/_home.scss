@@ -1,1 +1,18 @@
 // Specific CSS for your home-page
+
+body  {
+  background-color: $darkblue;
+  color: #fff;
+}
+
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+h1 {
+  font-size: 66px;
+  font-weight: 900;
+  text-align: center;
+  padding: 50px;
+}

@@ -1,7 +1,9 @@
 <%= simple_form_for (cocktail) do |f| %>
 <div class=container>
   <div class="form-group">
-    <%= f.input :name, class: 'form-control' %>
+    <%= f.input :name, error: 'Hmm... No-name cocktail sucks! Please specify a name!', class: 'form-control' %>
+    <%= f.input :photo, error: 'I need to see what gets me drunk! Upload a photo!' %>
+    <%= f.input :photo_cache, as: :hidden %>
     <%= f.submit "Submit", class: "btn btn-primary" %>
   </div>
 </div>

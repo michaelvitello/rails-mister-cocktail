@@ -4,5 +4,8 @@ has_many :doses, :dependent => :destroy
 has_many :ingredients, through: :doses
 
 validates :name, presence: true, uniqueness: true, allow_blank: false
+validates :photo, presence: true, allow_blank: false
+
+mount_uploader :photo, PhotoUploader
 
 end
