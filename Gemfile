@@ -27,6 +27,7 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 gem 'jquery-rails'
 gem 'figaro'
+gem 'cloudinary'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
